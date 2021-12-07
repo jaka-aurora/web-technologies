@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Media Elements</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/lightbox.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <!-- Background video
+        <video autoplay muted loop id="background">
+            <source src="video/helicopter.mp4" type="video/mp4">
+        </video> -->
+        <!-- Image galleries use Lighbox created by Lokesh Dhakar -->
+        <span>
+            <a href="images/image-1.jpg" data-lightbox="Album1" data-title="Prague1">Statue on Karl's Bridge</a>
+            <a href="images/image-2.jpg" data-lightbox="Album1" data-title="Prague2">Towards Karl's bridge</a>
+            <a href="images/image-3.jpg" data-lightbox="Album1" data-title="Prague3">Astronomical clock</a>
+            <a href="images/image-4.jpg" data-lightbox="Album1" data-title="Prague4">Astronomical clock</a>
+            <a href="images/image-5.jpg" data-lightbox="Album1" data-title="Prague5">Something to eat in Prague</a>
+            <a href="images/image-6.jpg" data-lightbox="Album1" data-title="Prague6">Prague Puppet Shop</a>
+        </span>
+        <span>
+            <a href="images/image-1.jpg" data-lightbox="Album2" data-title="Statue on Karl's Bridge">
+                <img src="images/image-1.jpg" style="width: 151px; height: auto;" alt="Statue on Karl's Bridge"></a>
+            <a href="images/image-2.jpg" data-lightbox="Album2" data-title="Towards Karl's bridge">
+                <img src="images/image-2.jpg" style="width: 151px; height: auto;" alt="Towards Karl's bridge"></a>
+            <a href="images/image-3.jpg" data-lightbox="Album2" data-title="Astronomical clock">
+                <img src="images/image-3.jpg" style="width: 151px; height: auto;" alt="Astronomical clock"></a>
+            <a href="images/image-4.jpg" data-lightbox="Album2" data-title="Astronomical clock">
+                <img src="images/image-4.jpg" style="width: 151px; height: auto;" alt="Astronomical clock"></a>
+            <a href="images/image-5.jpg" data-lightbox="Album2" data-title="Something to eat in Prague">
+                <img src="images/image-5.jpg" style="width: 151px; height: auto;" alt="Something to eat in Prague"></a>
+            <a href="images/image-6.jpg" data-lightbox="Album2" data-title="Prague Puppet Shop">
+                <img src="images/image-6.jpg" style="width: 151px; height: auto;" alt="Prague Puppet Shop"></a>
+        </span>
+        <!-- Helicopter video with backup video WITHOUT autoplay -->
+        <video width="640" controls poster="video/video01.jpg" id="vid">
+            <source src="video/helicopter.mp4" type="video/mp4">
+            <source src="video/valokaupunki.mp4" type="video/mp4">
+            Sorry! It seems the video doesn't work.
+        </video>
+        <!-- Audio file WITHOUT autoplay -->
+        <audio controls id="noise">
+            <source src="audio/kalimba.mp3" type="audio/mp3">
+          Sorry! It seems the track doesn't work.
+        </audio>
+        <script src="js/lightbox-plus-jquery.js"> </script>
+    </body>
+</html>

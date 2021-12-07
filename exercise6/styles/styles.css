@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sora:wght@800&family=Varela+Round&display=swap');
+
+* {
+    margin:0;
+}
+body {
+    font-size:100%;
+    font-family:Lato, Verdana, sans-serif;
+}
+article {
+    max-width:90%;
+    margin:auto;
+    background-color: cornsilk;
+}
+header {
+    height:10%;
+    padding:3% 0% 3% 0%;
+    background-color:#575757;
+    color:#f0ebeb;
+    font-family:Sora, Verdana, sans-serif;
+    text-align:center;
+    font-size:200%;
+}
+nav {
+    background-color:#e49a2f;
+    color:#f7f5ee;
+    font-family:"Varela Round", Verdana, sans-serif;
+    font-size:1em;
+    text-align:center;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    display:inline;
+    
+}
+li a {
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+}
+.active {
+    background-color:#a68e6d;
+}
+li a:hover {
+    background-color:#8f8f8f;
+}
+section {
+    background-color:#D8CCAF;
+    overflow:hidden;
+    font-size:0.875em;
+    text-align:left;
+}
+section.left, section.right {
+    margin:3% 2.5% 5% 2.5%;
+    padding:2.5% 2.2%;
+    width:40%;
+    background-color:#F7F5EE;
+    border: 1px solid #AC9675;
+    border-radius:4%;
+    float:left;
+}
+span {
+    display:block;
+    padding-bottom:2%;
+    color:darkgoldenrod;
+    font-family:Sora, Verdana, sans-serif;
+    font-size:1em;
+}
+img {
+    display:block;
+    width:100%;
+    height:auto;
+    margin-top:2%;
+}
+footer {
+    height:1.875em;
+    margin:0;
+    padding:0;
+    background-color:#e49a2f;
+    color:#f7f5ee;
+    font-family:"Varela Round", Verdana, sans-serif;
+    font-size:1em;
+    text-align:center;
+}

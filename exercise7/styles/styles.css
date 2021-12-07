@@ -1,0 +1,32 @@
+/* Background video styling */
+#background {
+    position:fixed;
+    object-fit:cover;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* Audio video styling */
+#noise {
+    display:block;
+    padding:0% 10% 10%;
+}
+/* Video styling */
+#vid {
+    display:block;
+    padding:0% 0% 10% 10%;
+}
+/* Image gallery styling */
+span {
+    display:block;
+    margin:10% 0% 10% 10%; 
+}
+/* Image gallery links styling */
+a {
+    padding:1% 1%;
+    color:black;
+}

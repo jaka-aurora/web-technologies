@@ -1,0 +1,79 @@
+body {
+    margin:0;
+    background-color:#c5c6c7;
+}
+#page {
+    margin:0 auto;
+    width:960px;
+}
+/* Header styling */
+#header {
+    border-bottom:2px solid black;
+    width:100%;
+    height:78px;
+    font-family:Georgia, Merriweather, serif;
+    color:#1f2833;
+    letter-spacing:5px;
+    background-color:#66fcf1;
+}
+/* Different header sections */
+#header_center, #header_right {
+    border-left:1px solid black;
+    width:279px;
+    height:60px;
+    padding:10px 20px;
+    float:left;
+    text-align: center;
+}
+#header_center {
+    font-size:20px;
+    height:60px;
+    padding:10px 20px;
+}
+#header_right {
+    font-size:12px;
+    height:70px;
+    padding:5px 20px;
+}
+#header_logo {
+    width:320px;
+    height:80px;
+    float:left;
+    background:url('../images/amazing.png') no-repeat center;   /* added an image as background to reporesent a logo */
+}
+#menu {
+    width:100%;
+    height:20px;
+    padding:5px 0px;
+    text-align:center;
+    font:12px Verdana, 'Open Sans', sans-serif;
+    color:#0b0c10;
+    background-color:#45a29e;
+    clear:both;
+}
+/* Content styling */
+#content {
+    width:960px;
+    background-color:#1f2833;
+    font:14px Verdana, 'Open Sans', sans-serif;
+    color:#c5c6c7;
+    overflow: hidden;
+}
+#content_left, #content_right {
+    border-radius: 25px;
+    border:2px dotted #66fcf1;
+    width:356px;
+    margin:30px 30px 100px;
+    padding:35px 30px;
+    float:left;
+}
+/* Footer styling */
+#footer{
+    height:20px;
+    padding:5px;
+    text-align:center;
+    font:12px Verdana, 'Open Sans', sans-serif;
+    color:#0b0c10;
+    background-color:#45a29e;
+    clear:both;
+}

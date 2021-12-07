@@ -1,0 +1,349 @@
+/* Imported Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Raleway:wght@300&display=swap');
+
+/* Semantic elements and general style settings*/
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    color: #FAEFE7;
+    background-color: #B36565;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    background-color: #FAEFE7;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 2%;
+}
+header {
+    font-size: 5em;
+    font-family: 'Parisienne',  cursive;
+    color: #2C2C2D;
+    background-color: #FAEFE7;
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+h1 {
+    font-size: 1.8em;
+    padding: 2% 0%;
+}
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+h3 {
+    font-size: 1em;
+}
+p {
+    padding-bottom: 1% 0% 3% 0%;
+    font-size: 1em;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    padding-top: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+/* Links */
+ul.a {
+    list-style-type: circle;
+    text-align: left;
+    width: 100%;
+    padding: 1% 0%;
+    word-wrap: break-word;
+}
+li a:link, a:visited {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    color: #FAEFE7;
+    font-size: 1em;;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 1%;
+}
+li a:hover, a:active {
+    color: #FAEFE7;
+    background-color: #E1C254;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Grid items */
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 2%;
+    padding: 5% 10%;
+}
+.grid-item {
+    padding: 5%;
+    font-size: 1.2em;
+}
+.item1 {grid-column: 1; grid-row: 1;
+}
+.item2 {
+    grid-column: 2 /span 2;
+    grid-row: 1;
+}
+.image2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.item3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.image4 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.item4 {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+.image5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.image6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+.item5 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.item6 {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+}
+.profile {
+    grid-column: 2 /span 2;
+    grid-row: 1 / span 2;
+}
+
+/* Skill bar */
+.container {
+    width: 100%;
+    background-color: #FAEFE7;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FAEFE7;
+}
+.html {
+    width: 75%; 
+    background-color: #FFB2B2;
+}
+.css {
+    width: 60%; 
+    background-color: #6C6C6C;
+}
+.py {
+    width: 70%; 
+    background-color: #E1C254;
+}
+.gis {
+    width: 80%; 
+    background-color: #FFA179;
+}
+
+/* Navigation */
+nav a:link, a:visited {
+    color: #2C2C2D;
+    font-size: 1.3em;;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.1%;
+}
+nav a:hover, a:active {
+    color: #2C2C2D;
+    background-color: #E1C254;
+    width: 100%;
+}
+
+/* Image hover overlay*/
+.box {
+    position: relative;
+}
+.image {
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E1C254;
+}
+.box:hover .overlay {
+    opacity: 1;
+} 
+.text {
+    color: #2C2C2D;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Timeline element*/
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 0% 5% 0%;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #2C2C2D;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/* Container around content */
+.can {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+/* The circles on the timeline */
+.can::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #FAEFE7;
+    border: 4px solid #FFA179;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* Container to the left */
+.left {
+    left: 0;
+}
+/* Container to the right */
+.right {
+    left: 50%;
+}
+/* Arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #FAEFE7;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #FAEFE7;
+}
+/* Arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #FAEFE7;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #FAEFE7 transparent transparent;
+}
+/* Circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+/* The actual content of timeline */
+.content {
+    padding: 20px 30px;
+    background-color: #FAEFE7;
+    position: relative;
+    border-radius: 6px;
+    color: #2C2C2D;
+}
+/* Media queries - Responsive website on screens less than 750px wide */
+@media screen and (max-width: 750px) {
+/* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    /* Full-width containers */
+    .can {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .can::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+    .content {
+        font-size: 400%;
+    }
+/* Font size */
+    nav, p, div {
+        font-size: 60%;
+    }
+    header {
+        font-size: 2.5em;
+    }
+    h1, h2, h3, li {
+        font-size: 70%;
+    }
+    .bottom {
+        font-size: 60%;  
+    }
+}

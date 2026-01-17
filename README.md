@@ -4,7 +4,8 @@ A collection of exercises and a final web project completed for the **Web Techno
 
 ## Overview
 
-This repository contains hands-on work from the Web Technologies course, demonstrating foundational skills in **HTML, CSS, and JavaScript** through structured exercises and a final project. The goal was to learn how web pages are built, styled, and made interactive.
+This repository contains hands-on work from the Web Technologies course, showcasing foundational skills in **HTML, CSS, and JavaScript** through structured exercises and a final project. The goal was to learn how web pages are built, styled, and made interactive.
+The course was led by Kari Niemi.
 
 ## Contents
 

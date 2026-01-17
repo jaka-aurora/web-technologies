@@ -22,15 +22,6 @@ This repository contains hands-on work from the Web Technologies course, demonst
 - CSS  
 - JavaScript
 
-## How to Use
-
-1. Clone the repository  
-2. Open any `.html` file in your browser (e.g., `practical_work_final/index.html`)
-
-## Preview
-
-<img src="practical_work_final/images/web_preview.png" width="500">
-
 ## What I Learned
 
 - Structuring HTML pages  
@@ -38,4 +29,14 @@ This repository contains hands-on work from the Web Technologies course, demonst
 - Using JavaScript for simple dynamic behavior  
 - Best practices for organizing web files
 
-© 2021 Jaka Ćosić Hämäläinen
+## Preview
+
+<img src="practical_work_final/images/web_preview.png" width="500">
+
+## How to Use
+
+1. Clone the repository  
+2. Open any `.html` file in your browser (e.g., `practical_work_final/index.html`)
+
+
+© *2021 Jaka Ćosić Hämäläinen*

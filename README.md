@@ -8,13 +8,13 @@ This repository contains hands-on work from the Web Technologies course, demonst
 
 ## Contents
 
-📁 exercise2 — Basic HTML structure  
-📁 exercise3 — Styling with CSS  
-📁 exercise4 — Interactive JavaScript examples  
-📁 exercise5 — Interactive JavaScript examples
-📁 exercise6 — Interactive JavaScript examples
-📁 exercise7 — Interactive JavaScript examples
-📁 practical_work_final — Final web project
+📁 exercise2 — Introduction to HTML fundamentals, focusing on basic page structure, semantic elements, and proper document layout
+📁 exercise3 — CSS styling exercises covering layout, colors, typography, and basic responsive design principles.
+📁 exercise4 — JavaScript basics, including DOM manipulation, event handling, and simple interactive functionality. 
+📁 exercise5 — Working with forms and user input, combining HTML, CSS, and JavaScript for validation and interaction.
+📁 exercise6 — More advanced JavaScript features and dynamic behavior, building on earlier exercises.
+📁 exercise7 — Integration of multiple web technologies into a cohesive small web application.
+📁 practical_work_final — Final course project demonstrating the combined use of HTML, CSS, and JavaScript in a complete web solution.
 
 ## Tech Stack
 

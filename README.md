@@ -29,7 +29,7 @@ This repository contains hands-on work from the Web Technologies course, demonst
 
 ## Preview
 
-![Final project screenshot](path/to/screenshot.png)
+![Final project screenshot](practical_work_final/images/web_preview.png)
 
 ## What I Learned
 

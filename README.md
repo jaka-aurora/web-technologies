@@ -1,4 +1,4 @@
-# Web_technologie
+# Web_technologies
 
 A collection of exercises and a final web project completed for the **Web Technologies** course at JAMK University of Applied Sciences.
 
@@ -8,13 +8,13 @@ This repository contains hands-on work from the Web Technologies course, demonst
 
 ## Contents
 
-📁 exercise2 — Introduction to HTML fundamentals, focusing on basic page structure, semantic elements, and proper document layout
-📁 exercise3 — CSS styling exercises covering layout, colors, typography, and basic responsive design principles.
-📁 exercise4 — JavaScript basics, including DOM manipulation, event handling, and simple interactive functionality. 
-📁 exercise5 — Working with forms and user input, combining HTML, CSS, and JavaScript for validation and interaction.
-📁 exercise6 — More advanced JavaScript features and dynamic behavior, building on earlier exercises.
-📁 exercise7 — Integration of multiple web technologies into a cohesive small web application.
-📁 practical_work_final — Final course project demonstrating the combined use of HTML, CSS, and JavaScript in a complete web solution.
+📁 exercise2 — Introduction to HTML fundamentals, focusing on basic page structure, semantic elements, and proper document layout  
+📁 exercise3 — CSS styling exercises covering layout, colors, typography, and basic responsive design principles  
+📁 exercise4 — JavaScript basics, including DOM manipulation, event handling, and simple interactive functionality  
+📁 exercise5 — Working with forms and user input, combining HTML, CSS, and JavaScript for validation and interaction  
+📁 exercise6 — More advanced JavaScript features and dynamic behavior, building on earlier exercises  
+📁 exercise7 — Integration of multiple web technologies into a cohesive small web application  
+📁 practical_work_final — Final course project demonstrating the combined use of HTML, CSS, and JavaScript in a complete web solution  
 
 ## Tech Stack
 
@@ -31,7 +31,7 @@ This repository contains hands-on work from the Web Technologies course, demonst
 
 ![Final project screenshot](path/to/screenshot.png)
 
-## 🧠 What I Learned
+## What I Learned
 
 - Structuring HTML pages  
 - Styling with CSS  

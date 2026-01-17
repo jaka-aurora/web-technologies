@@ -1,4 +1,4 @@
-# Web_technologies
+# Web technologies
 
 A collection of exercises and a final web project completed for the **Web Technologies** course at JAMK University of Applied Sciences.
 
